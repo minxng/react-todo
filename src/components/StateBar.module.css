@@ -1,0 +1,12 @@
+.bar {
+  display: flex;
+}
+
+.list {
+  padding: 10px;
+  color: yellowgreen;
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
+  user-select: none;
+}

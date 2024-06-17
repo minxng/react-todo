@@ -1,0 +1,48 @@
+.home {
+  width: 400px;
+  background: #ddd;
+  color: #222;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.dark-mode {
+  background: #222;
+  color: #fff;
+}
+.ul {
+  max-height: 65vh;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.done {
+  text-decoration: line-through;
+}
+.form-style {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.input-style {
+  width: 70%;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.8rem;
+}
+.add-btn {
+  width: 20%;
+  background: yellowgreen;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.8rem;
+}
